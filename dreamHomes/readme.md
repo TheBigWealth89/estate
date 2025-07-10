@@ -2,7 +2,7 @@
 
 A modern, responsive real estate landing page built with React, TypeScript, and Vite. Features property listings, interactive search, video tours, and beautiful animations.
 
-🌍 **Live Demo**: [https://my-todo-my.netlify.app/](https://my-todo-my.netlify.app/)
+🌍 **Live Demo**: [https://dream-ho.netlify.app/](https://dream-ho.netlify.app/)
 
 
 ## Tech Stack
