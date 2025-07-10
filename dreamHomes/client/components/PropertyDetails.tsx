@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   X,
   MapPin,
@@ -81,7 +81,7 @@ export default function PropertyDetails({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl max-h-[90vh] p-0 overflow-hidden">
+      <DialogContent className="max-w-6xl h-[90vh] flex p-0 overflow-hidden">
         <DialogTitle className="sr-only">
           Property Details - {property.title}
         </DialogTitle>
@@ -89,7 +89,7 @@ export default function PropertyDetails({
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
-          className="flex flex-col lg:flex-row h-full"
+          className="flex flex-col lg:flex-row h-full w-full"
         >
           {/* Image Gallery */}
           <div className="lg:w-2/3 relative">
@@ -164,7 +164,7 @@ export default function PropertyDetails({
           </div>
 
           {/* Property Details */}
-          <div className="lg:w-1/3 p-6 flex flex-col overflow-y-auto">
+          <div className="lg:w-1/3 p-6 flex flex-col overflow-y-auto max-h-[90vh]">
             {/* Close Button */}
             <Button
               variant="ghost"
