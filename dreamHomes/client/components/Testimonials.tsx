@@ -138,7 +138,7 @@ export default function Testimonials() {
               animate={isInView ? { opacity: 1, y: 0, scale: 1 } : {}}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Card className="h-full border-0 bg-card/50 backdrop-blur-sm hover:shadow-lg transition-all duration-300 group relative overflow-hidden">
+              <Card className="h-full border-0 bg-card/50 backdrop-blur-sm hover:shadow-md transition-all duration-300 group relative overflow-hidden">
                 <div className="absolute top-4 right-4 text-primary/20 group-hover:text-primary/40 transition-colors duration-300">
                   <Quote className="w-8 h-8" />
                 </div>

@@ -141,7 +141,7 @@ export default function WhyChooseUs() {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <Card className="h-full border-0 bg-card/50 backdrop-blur-sm hover:shadow-lg transition-all duration-500 group">
+                <Card className="h-full border-0 bg-card/50 backdrop-blur-sm hover:shadow-md transition-all duration-500 group">
                   <CardContent className="p-6 text-center">
                     <motion.div
                       whileHover={{ scale: 1.1, rotate: 5 }}
